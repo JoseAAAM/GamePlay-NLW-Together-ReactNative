@@ -37,6 +37,7 @@ type GuildWidget = {
   name: string;
   instant_invite: string;
   members: MemberProps[];
+  presence_count: number;
 };
 
 export function AppointmentDetails() {
@@ -55,6 +56,7 @@ export function AppointmentDetails() {
       setLoading(false);
     } catch {
       Alert.alert(
+        "Erro no Widget",
         "Verifique nas configurações do servidor se o Widget está habilitado"
       );
     } finally {
@@ -106,7 +108,7 @@ export function AppointmentDetails() {
         <>
           <ListHeader
             title="Jogadores"
-            subtitle={`Total ${widget.members.length}`}
+            subtitle={widget.presence_count === undefined ? 'Total ?' : `Total ${widget.presence_count}`}
           />
           <FlatList
             data={widget.members}

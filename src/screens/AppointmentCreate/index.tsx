@@ -6,6 +6,7 @@ import {
     ScrollView,
     KeyboardAvoidingView,
     Platform,
+    Alert,
 } from 'react-native';
 
 import { RectButton, RectButtonProps } from 'react-native-gesture-handler'
@@ -33,7 +34,6 @@ export function AppointmentCreate({ navigation }: any) {
     const [category, setCategory] = useState('');
     const [openGuildsModal, setOpenGuildsModal] = useState(false);
     const [guild, setGuild] = useState<GuildProps>({} as GuildProps);
-
     const [day, setDay] = useState('');
     const [month, setMonth] = useState('');
     const [hour, setHour] = useState('');
