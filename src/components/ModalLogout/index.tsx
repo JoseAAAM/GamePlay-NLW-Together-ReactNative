@@ -24,7 +24,11 @@ export function ModalLogout({ ButtonNo, ButtonYes, ...rest }: Props) {
                     <Background>
                         <View style={styles.content}>
                             <Text style={styles.title}>
-                                Deseja sair do GamePlay?
+                                Deseja sair do Game
+                                <Text style={styles.titleSecondColor}>
+                                    Play
+                                </Text>
+                                ?
                             </Text>
                         </View>
                         <View style={styles.buttonContainer}>
