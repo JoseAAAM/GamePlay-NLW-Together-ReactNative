@@ -47,6 +47,9 @@ Desenvolvidos nas aulas da Rocketseat NLW Togheter 06 ministradas pelo Rodrigo G
 -   [ ] React Native Share
 -   [ ] Deep Link
 
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através do [Figma](https://www.figma.com/file/0kv33XYjvOgvKGKHBaiR07/GamePlay-NLW-Together?node-id=58913%3A83).
 
 ## Executando o projeto
 
@@ -66,3 +69,11 @@ RESPONSE_TYPE=
 CLIENT_ID=
 CDN_IMAGE=
 ```
+
+**&copy; [Rocketseat](https://rocketseat.com.br/)**
+
+**Instrutor: [Rodrigo Gonçalves Santana](https://github.com/rodrigorgtic) | Instructor & Content Producer at Rocketseat**
+
+---
+
+<h4 align="center">by <a href="https://github.com/JoseAAAM" target="_blank">JoseAAAM</a> </h4>
